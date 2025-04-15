@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (element) element[property] = value;
         };
         
-        setContent('page', 'textContent', settings.name || "Skyzopedia UI");
-        setContent('wm', 'textContent', `© 2025 ${settings.apiSettings.creator}. All rights reserved.` || "© 2025 Skyzopedia. All rights reserved.");
-        setContent('header', 'textContent', settings.name || "Skyzopedia UI");
-        setContent('name', 'textContent', settings.name || "Skyzopedia UI");
+        setContent('page', 'textContent', settings.name || "FR3 UI");
+        setContent('wm', 'textContent', `© 2025 ${settings.apiSettings.creator}. All rights reserved.` || "© 2025 FR3. All rights reserved.");
+        setContent('header', 'textContent', settings.name || "FR3 UI");
+        setContent('name', 'textContent', settings.name || "FR3 UI");
         setContent('version', 'textContent', settings.version || "v1.0");
         setContent('versionHeader', 'textContent', settings.header.status || "Active!");
         setContent('description', 'textContent', settings.description || "Simple API's");

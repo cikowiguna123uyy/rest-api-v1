@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    color: #000; /* Ubah ke hitam */
+    color: #000;
     padding: 25px 30px;
     background-image: url('https://img1.pixhost.to/images/5025/587692341_fr3hosting.jpg');
     background-size: cover;
@@ -155,9 +155,15 @@ body.no-scroll {
     color: white;
 }
 
-/* Override semua elemen teks */
-h1, h2, h3, h4, h5, h6, p, label, span {
+/* Override semua elemen teks menjadi hitam, tebal, dan outline putih */
+h1, h2, h3, h4, h5, h6, p, label, span, a, div, small, strong {
+    font-weight: bold !important;
     color: #000 !important;
+    text-shadow: 
+        -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
 }
 
 .card, .card-body, .custom-box, .api-box, .api-entry, .api-item {
@@ -166,4 +172,4 @@ h1, h2, h3, h4, h5, h6, p, label, span {
     border-radius: 12px;
     color: #000 !important;
     border: none !important;
-}
+        }

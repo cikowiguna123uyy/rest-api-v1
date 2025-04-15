@@ -9,16 +9,7 @@
     "creator": "FR3 Now", 
     "apikey": ["Nvidia"]
   },
-  "links": [
-    {
-      "name": "Source Code",
-      "url": "https://github.com/rynxzyy/Rynn-UI"
-    },
-    {
-      "name": "Contact Me",
-      "url": "https://whatsapp.com/channel/0029VaYoztA47XeAhs447Y1s"
-    }
-  ],
+  "links"[],
   "categories": [
     {
       "name": "OpenAI",

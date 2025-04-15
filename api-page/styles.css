@@ -159,3 +159,10 @@ body.no-scroll {
 h1, h2, h3, h4, h5, h6, p, label, span {
     color: #e0f7ff !important;
 }
+.card, .card-body, .custom-box, .api-box, .api-entry, .api-item {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 12px;
+    color: #e0f7ff !important;
+    border: none !important;
+}

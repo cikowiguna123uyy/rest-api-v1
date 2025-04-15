@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    color: #e0f7ff; /* biru keputihan */
+    color: #000; /* Ubah ke hitam */
     padding: 25px 30px;
     background-image: url('https://img1.pixhost.to/images/5025/587692341_fr3hosting.jpg');
     background-size: cover;
@@ -30,7 +30,7 @@ body.no-scroll {
 }
 
 .navbar-brand {
-    color: #e0f7ff;
+    color: #000;
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
@@ -47,7 +47,7 @@ body.no-scroll {
 }
 
 .spinner-border.custom-spinner {
-    color: #e0f7ff;
+    color: #000;
 }
 
 .modal-content {
@@ -55,7 +55,7 @@ body.no-scroll {
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(12px);
     border-radius: 15px;
-    color: #e0f7ff;
+    color: #000;
 }
 
 .modal-dialog {
@@ -74,7 +74,7 @@ body.no-scroll {
     transition: outline 0.3s ease;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
-    color: #e0f7ff;
+    color: #000;
 }
 
 #apiQueryInputContainer input:focus,
@@ -85,7 +85,7 @@ body.no-scroll {
 
 #apiQueryInputContainer input::placeholder,
 #searchInput::placeholder {
-    color: #e0f7ff;
+    color: #000;
     opacity: 0.6;
 }
 
@@ -94,7 +94,7 @@ body.no-scroll {
     font-family: monospace;
     white-space: pre-wrap;
     word-wrap: break-word;
-    color: #e0f7ff;
+    color: #000;
 }
 
 #apiResponseContent::-webkit-scrollbar {
@@ -103,7 +103,7 @@ body.no-scroll {
 
 #apiLinks a {
     display: block;
-    color: #aeeaff;
+    color: #000;
     text-decoration: underline;
     margin-bottom: 0.3rem;
 }
@@ -120,11 +120,11 @@ body.no-scroll {
     align-items: center;
     justify-content: center;
     z-index: 9999;
-    color: #e0f7ff;
+    color: #000;
 }
 
 .spinner-wrapper p {
-    color: #e0f7ff;
+    color: #000;
 }
 
 .card, .card-body, .banner, .tab-content > div {
@@ -132,7 +132,7 @@ body.no-scroll {
     backdrop-filter: blur(8px);
     border-radius: 10px;
     padding: 10px;
-    color: #e0f7ff;
+    color: #000;
 }
 
 .get-btn {
@@ -157,12 +157,13 @@ body.no-scroll {
 
 /* Override semua elemen teks */
 h1, h2, h3, h4, h5, h6, p, label, span {
-    color: #e0f7ff !important;
+    color: #000 !important;
 }
+
 .card, .card-body, .custom-box, .api-box, .api-entry, .api-item {
     background-color: rgba(255, 255, 255, 0.05) !important;
     backdrop-filter: blur(10px) !important;
     border-radius: 12px;
-    color: #e0f7ff !important;
+    color: #000 !important;
     border: none !important;
 }

@@ -1,13 +1,13 @@
 {
-  "name": "APIs By Nvidia",
+  "name": "APIs By Wafa",
   "version": "",
   "description": "Simple and easy to use API for WhatsApp Bot feature.",
   "header": {
     "status": "Active!"
   },
   "apiSettings": {
-    "creator": "FR3 Now", 
-    "apikey": ["Nvidia"]
+    "creator": "Wafa Now", 
+    "apikey": ["RTX"]
   },
   {
   "dependencies": {
@@ -16,7 +16,7 @@
   }
 },
 {
-  "links"[],
+  "links"["https://api-wafa-offc.vercel.app"],
   "categories": [
     {
       "name": "OpenAI",

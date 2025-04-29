@@ -16,7 +16,7 @@
   }
 },
 {
-  "links"["https://api-wafa-offc.vercel.app"],
+  "links": ["https://api-wafa-offc.vercel.app"],
   "categories": [
     {
       "name": "OpenAI",
